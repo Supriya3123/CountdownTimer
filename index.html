@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Countdown Timer To Your Birthday</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter Your Birthday Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="start">Start Countdown</button>
+    <button id="stop">Stop Countdown</button>
+    <div class="countdown" id="countdown">
+        <div>
+            <p class="heading">YEARS</p>
+            <div class="time" id="countdown-years">0</div>
+        </div>
+        <div>
+            <p class="heading">DAYS</p>
+            <div class="time" id="countdown-days">0</div>
+        </div>
+        <div>
+            <p class="heading">HOURS</p>  
+            <div class="time" id="countdown-hours">0</div>
+        </div>
+        <div>
+            <p class="heading">MINUTES</p>
+            <div class="time" id="countdown-minutes">0</div>
+        </div>
+        <div>
+            <p class="heading">SECONDS</p>
+            <div class="time" id="countdown-seconds">0</div>
+        </div>
+        <p id="emoji"></p>
+    </div>
+    <script src="countdown.js"></script>
+</body>
+</html>
